@@ -221,6 +221,11 @@ main {
   flex-direction: column;
 }
 
+.content:hover {
+  filter: invert(100%);
+  cursor: pointer;
+}
+
 /* ---------FIRST-ROW----------- */
 .grid-row-content {
   background-color: #e7ecf0;
@@ -321,4 +326,37 @@ main {
 .event-description {
     color: rgb(33, 96, 172);
     font-weight: bold;
+}
+
+/* --------------------------FOOTER------------------------- */
+
+footer {
+  background-color: #34383c;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  gap: 100px;
+  padding: 50px 30px 20px 30px;
+}
+
+.footer-content {
+  flex: 1;
+}
+
+.footer-content a {
+  font-weight: 100;
+}
+
+footer form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+footer form button:hover {
+  cursor: pointer;
+  background-color: #81858a;
 }
