@@ -193,3 +193,26 @@ button:hover {
     position: relative;
     top: 70px;
 }
+
+main {
+    margin: 20px;
+    /* margin-right: 20px; */
+}
+
+        /* -----GRID-CONTAINER-------- */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.grid-container img {
+    height: 30px;
+}
+
+.grid-box {
+    height: 350px;
+    border: 1px solid #043867;
+}
